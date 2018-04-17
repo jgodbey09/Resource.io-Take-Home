@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    height: 98%;
+}
+body {
+	text-align:center;
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, rgba(164,243,198,0), rgba(164,243,198,1)), -webkit-linear-gradient(left bottom, rgba(164,243,198,0), rgba(164,243,198,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(164,243,198,0), rgba(164,243,198,1)), -o-linear-gradient(top right, rgba(164,243,198,0), rgba(164,243,198,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(164,243,198,0), rgba(164,243,198,1)), -moz-linear-gradient(top right, rgba(164,243,198,0), rgba(164,243,198,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(164,243,198,0), rgba(164,243,198,1)), linear-gradient(to top right, rgba(164,243,198,0), rgba(164,243,198,1)); /* Standard syntax */
+	background-position: top, bottom;
+}
+h2, h3 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #A6D8F0;
+	font-size: 48px;
+    -webkit-text-fill-color: #A6D8F0; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #529CC0;
+}
+h3 {
+	font-size: 32px;
+}
+p {
+    color: #008CBA;
+}
+textarea {
+    width: 60%;
+    height: 450px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+textarea:focus {
+	outline:none;
+}
+#emailContent {
+	display: none;
+}
+#emailHeaders {
+	width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+	text-align: left;
+    padding: 12px 20px;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+#htmlcontent {
+	width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    resize: none;
+}
+#errormsg {
+	width: 30%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+	text-align: center;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #ffffff;
+    resize: none;
+	display: none;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+img {
+	height: 100%;
+	max-width: 100px;
+    max-height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+	margin-top: 30px;
+}
